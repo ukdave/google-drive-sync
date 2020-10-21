@@ -1,0 +1,31 @@
+---
+require:
+  - rubocop-performance
+AllCops:
+  TargetRubyVersion: 2.6
+  DisplayCopNames: true
+  NewCops: enable
+Layout/MultilineHashBraceLayout:
+  Enabled: false
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Style/Documentation:
+  Enabled: false
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
